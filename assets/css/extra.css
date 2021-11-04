@@ -143,3 +143,29 @@
   content: "3";
 }
 
+.tags ul li {
+  display: inline-block;
+  margin: 0 0.3em 0.3em 0;
+  padding: 0;
+}
+
+
+.tags ul li span {
+  display: inline-block;
+  max-width: 200px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 1em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #333;
+  font-size: 13px;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
