@@ -86,6 +86,9 @@
 .bar .progress-line.js span{
   width: 60%;
 }
+.bar .progress-line.octave span{
+  width: 40%;
+}
 .progress-line span::before{
   position: absolute;
   content: "";
@@ -141,6 +144,9 @@
 }
 .progress-line.js span::after{
   content: "3";
+}
+.progress-line.octave span::after{
+  content: "2";
 }
 
 .tags ul li {
